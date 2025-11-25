@@ -1,8 +1,8 @@
 # 📊 Projeto BI — Análise do *Brazilian E-Commerce Public Dataset (Olist)*
 
 Este projeto apresenta um dashboard executivo desenvolvido em **Power BI** utilizando o dataset público da **Olist**, com foco na performance de vendas, comportamento do cliente e qualidade da experiência (NPS e avaliações).  
-O arquivo do dashboard utilizado como referência está disponível em:  
-`/mnt/data/fce3e65d-73b1-4335-8433-2257e2c50f3c.png`
+
+## Adicionar foto do dash
 
 ---
 
@@ -57,6 +57,7 @@ Contém informações de vendas, valores, frete, itens, pagamento e datas — co
 - **DimPayment** — tipos de pagamento  
 - **DimGeography** — UF, cidade e posição geográfica  
 
+## Adicionar schema
 ---
 
 ## 🔧 Processo ETL (Power Query)
@@ -95,11 +96,4 @@ Importação dos CSVs originais.
 - Ticket Médio  
 - Avaliação Média  
 - Crescimento MoM (Month over Month)  
-- NPS calculado com base em reviews:
-
-```DAX
-NPS Score =
-VAR Promotores = CALCULATE(COUNTROWS('Reviews'), 'Reviews'[review_score] >= 9)
-VAR Detratores = CALCULATE(COUNTROWS('Reviews'), 'Reviews'[review_score] <= 6)
-VAR Total = COUNTROWS('Reviews')
-RETURN ((Promotores - Detratores) / Total) * 100
+- NPS calculado com base em reviews
