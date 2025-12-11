@@ -2,7 +2,7 @@
 
 Este projeto apresenta um dashboard executivo desenvolvido em **Power BI** utilizando o dataset público da **Olist**, com foco na performance de vendas, comportamento do cliente e qualidade da experiência (NPS e avaliações).  
 
-## Adicionar foto do dash
+<img width="1437" height="795" alt="Image" src="https://github.com/user-attachments/assets/e7fd6612-812e-4d9f-bac5-09de7fa17ae7" />
 
 ---
 
@@ -40,6 +40,8 @@ O dataset original contém diversas tabelas (CSV), sendo as principais:
 - `customers.csv` — dados do cliente  
 - `sellers.csv` — vendedores  
 - `geolocation.csv` — georreferenciamento por CEP  
+
+![Image](https://github.com/user-attachments/assets/23ac1201-d0c7-4a81-b80b-9478e47b37b9)
 
 ---
 
